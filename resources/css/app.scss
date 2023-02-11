@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+.todos {
+     display: flex;
+     flex-direction: row;
+}
+
+.todos-section {
+    width: 50%;
+    padding: 1.7rem;
+}
+
+.todos-section p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.todo .actions {
+
+}
+
+.btn {
+    background: #9ca3af;
+    display: inline;
+    width: auto;
+    height: auto;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 0.2rem;
+}
+
+.btn:hover {
+    background: #6b7280;
+}
+
